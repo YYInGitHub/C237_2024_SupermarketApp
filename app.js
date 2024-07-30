@@ -20,6 +20,7 @@ const storage = multer.diskStorage({
 // Create the multer object
 const upload = multer({ storage: storage });
 
+// Set up MySQL database connection
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -27,6 +28,7 @@ const connection = mysql.createConnection({
     database: 'c237_l11b_supermarketapp'
 });
 
+// Connect to the database
 connection.connect((err) =>
 {
     if (err)

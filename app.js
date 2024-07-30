@@ -22,10 +22,10 @@ const upload = multer({ storage: storage });
 
 // Set up MySQL database connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_l11b_supermarketapp'
+    host: 'db4free.net',
+    user: 'c237admin',
+    password: '12345678',
+    database: 'c237_l12_smartdb'
 });
 
 // Connect to the database

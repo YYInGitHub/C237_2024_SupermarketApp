@@ -17,6 +17,7 @@ const storage = multer.diskStorage({
     }
 });
 
+// Create the multer object
 const upload = multer({ storage: storage });
 
 const connection = mysql.createConnection({

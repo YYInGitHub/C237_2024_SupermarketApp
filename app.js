@@ -6,6 +6,7 @@ const multer = require('multer');
 const app = express();
 
 // Good Morning Class !!
+// Lesson 12: Smart Shopping Cart
 
 // Set up multer for file uploads
 const storage = multer.diskStorage({
